@@ -1,0 +1,19 @@
+add_newline = false
+format = "$directory$all$character"
+
+[directory]
+format = "[ ](bold #a48e30)[ $path ]($style)"
+style = "bold #a48e30"
+truncation_length = 0
+truncate_to_repo = false
+
+[character]
+success_symbol = "[➜](bold #a48e30)"
+error_symbol = "[➜](bold #c34043)"
+
+[cmd_duration]
+format = "[󰔛 $duration]($style)"
+disabled = false
+style = "bg:none fg:#e6b450"
+show_notifications = false
+min_time_to_notify = 60000

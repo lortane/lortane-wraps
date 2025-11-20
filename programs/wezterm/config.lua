@@ -26,12 +26,7 @@
 --    - ALT + Ctrl + l: Increase the pane size upward by 5 units.
 
 local wezterm = require("wezterm")
-local config = {}
-
-config.color_scheme = "kanagawabones"
-
-config.font_size = 14.0
-config.font = wezterm.font("Terminess Nerd Font Mono")
+local config = require("nix-info")
 
 config.max_fps = 240
 config.animation_fps = 240
